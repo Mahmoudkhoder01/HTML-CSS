@@ -1,0 +1,23 @@
+.parag {
+    text-align: center;
+}
+
+.p-top {
+    width: 64%;
+    margin: auto;
+}
+.grid-container{
+    margin-top: 4rem;
+    text-align: center;
+}
+.parag2{
+    margin: auto;
+    width: 50%;
+}
+.hr-about{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 4rem;
+    color: grey;
+}

@@ -1,0 +1,90 @@
+.h1-footer {
+    font-weight: bold;
+    width: 70%;
+}
+
+.p-footer {
+    font-family: sans-serif;
+}
+
+.footer-button {
+    color: white;
+    background-color: rgb(81, 81, 236);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin-top: 40px;
+}
+
+.hr-footer {
+    width: 80%;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+.footer-image {
+    width: 80px;
+    height: 60px;
+}
+
+@media (max-width:600px) {
+    #resp-footer-box {
+        margin-left: 3rem !important;
+        height: 700px !important;
+    }
+
+    .resp-footer-image {
+        padding-right: 40px;
+        width: 100%;
+    }
+
+    .hr-footer {
+        margin-left: 2rem !important;
+        width: 90% !important;
+    }
+
+    #resp-footer-nav {
+        margin-left: 2rem !important;
+    }
+
+    .footer-nav {
+        width: 21% !important;
+    }
+}
+
+@media (min-width:600px) and (max-width:991px) {
+    #resp-footer-box {
+        height: 36.25rem !important;
+        margin-left: 5rem !important;
+    }
+
+    #resp-footer-nav {
+        margin-left: 5rem !important;
+    }
+
+    .hr-footer {
+        margin-left: 5rem;
+    }
+}
+
+@media (min-width:300px) and (max-width:450px) {
+    #resp-footer-box {
+        margin-left: 6rem !important;
+    }
+
+    #resp-footer-nav {
+        margin-left: 5rem !important;
+    }
+
+    .hr-footer {
+        margin-left: 5rem !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1070px) {
+    #resp-footer-box{
+        width: 88% !important;
+        margin-left: 4rem !important;
+    }
+}

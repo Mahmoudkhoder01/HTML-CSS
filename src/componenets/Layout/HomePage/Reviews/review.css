@@ -1,0 +1,131 @@
+.h2-review {
+    padding-top: 25px;
+    font-weight: bold;
+    width: 40%;
+}
+
+.review-button {
+    color: white;
+    background-color: rgb(81, 81, 236);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin-top: 80px;
+}
+
+h3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.p-steps {
+    padding-bottom: 40px;
+    font-weight: lighter;
+}
+
+hr {
+    width: 85%;
+}
+
+.review-div {
+    text-align: center;
+    padding-top: 153px;
+}
+
+.review-title {
+    font-weight: bold;
+}
+
+.p-review {
+    padding-top: 12px;
+    padding-bottom: 2rem;
+}
+
+.review-cards {
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin: 0px 20px;
+    height: 230px;
+    font-weight: bold;
+}
+
+#review-query {
+    margin-left: 10rem;
+    width: 70%;
+    flex-wrap: nowrap;
+}
+
+.p-cards {
+    padding-left: 20px;
+    text-align: initial;
+}
+
+@media (max-width:1000px) {
+    #review-query {
+        flex-direction: column !important;
+        margin: 4rem !important;
+        padding-bottom: 10px !important;
+    }
+
+    .p-review {
+        margin-left: 3rem;
+    }
+
+    .review-title {
+        padding-left: 2rem;
+    }
+
+    .review-cards {
+        margin: 10px;
+    }
+
+    .review-image {
+        width: 90% !important;
+    }
+
+    #resp-apply {
+        margin-left: 5rem !important;
+        height: 68.75rem !important;
+    }
+}
+
+@media (min-width:700px) and (max-width:980px) {
+    .review-cards {
+        margin-left: 4rem;
+    }
+
+    #resp-apply {
+        height: 72.6875rem !important;
+    }
+}
+
+@media (min-width:300px) and (max-width:450px) {
+    .review-cards {
+        margin-left: 0rem;
+    }
+
+    .p-review {
+        margin-left: 2rem !important;
+    }
+
+    .review-title {
+        margin-left: 0rem !important;
+    }
+    #resp-apply{
+        margin-left: 2rem !important;
+    }
+}
+
+@media (min-width:500px) and (max-width:550px) {
+    #resp-apply {
+        margin-left: 4rem !important;
+    }
+    .p-review{
+        margin-left: 0rem !important;
+    }
+    .review-title{
+        padding-left: 0rem;
+    }
+}

@@ -1,0 +1,134 @@
+.logoimage {
+    width: 150px;
+    height: 50px;
+}
+
+.header-photo {
+    padding-left: 10rem;
+    margin-top: 140px;
+    top: 4rem;
+}
+
+a:active,
+a:hover,
+a.active{
+    color: blue !important;
+}
+.inputs {
+    background-color: white;
+    width: 27.375rem;
+    height: 11%;
+    align-self: baseline;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left: 120px;
+}
+
+.input-container {
+    width: 35%;
+    outline: 1px;
+    border: none;
+    padding-right: 12px;
+    padding-left: 10px;
+}
+
+.d {
+    justify-content: end;
+}
+
+.p1-header {
+    font-size: 1.76rem;
+    font-weight: bold;
+    margin-top: 9.375rem;
+    margin-left: 7.5rem;
+    width: 15.625rem;
+    left: 10%;
+}
+
+.p2-header {
+    margin-left: 7.5rem;
+}
+
+.follow-us {
+    font-size: 1.8rem;
+    margin-left: 7.5rem;
+}
+
+.social-media {
+    padding: 0.625rem;
+}
+
+@media (max-width:600px) {
+    #nav-button {
+        justify-content: start !important;
+    }
+
+    .resp-button {
+        width: 100%;
+    }
+
+    .p1-header {
+        width: 70%;
+        text-align: center !important;
+        margin-left: 3.75rem !important;
+    }
+
+    .p2-header {
+        margin-left: 8.75rem !important;
+    }
+
+    .inputs {
+        margin-left: 0px !important;
+        width: 100% !important;
+        text-align: center;
+        height: 14%;
+    }
+
+    .header-photo {
+        text-align: center;
+        padding-left: 2.5rem;
+        margin-bottom: 3.125rem;
+    }
+
+    .follow-us {
+        margin-left: 3.75rem !important;
+    }
+}
+
+@media (min-width:700px) and (max-width:950px) {
+    #nav-button {
+        justify-content: start !important;
+    }
+
+    .resp-button {
+        width: 100%;
+    }
+    .header-photo{
+        padding-left: 7rem;
+    }
+    .p1-header{
+        width: 35.625rem !important;
+    }
+    .inputs{
+        height: 16% !important;;
+    }
+    .follow-us{
+        padding-top: 2rem;
+    }
+}   
+@media (min-width:300px) and (max-width:450px){
+        .inputs{
+            width: 100% !important;
+        }
+        .header-photo{
+            padding-left: 1rem;
+        }
+       
+}
+@media (min-width:300px) and (max-width:320px) {
+    .inputs {
+        width: 138% !important;
+    }
+    
+}

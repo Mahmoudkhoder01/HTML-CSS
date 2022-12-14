@@ -1,0 +1,47 @@
+.grid-contact {
+    margin-top: 2rem;
+}
+
+.input-contact {
+    border: none !important;
+    border-radius: 5px !important;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 35%;
+}
+
+.button-contact {
+    padding: 10px;
+    width: 35%;
+}
+
+@media (min-width:780px) {
+    .grid-contact {
+        margin-left: 5rem;
+    }
+
+    .image-contact {
+        padding-top: 5rem;
+    }
+    .p-contact{
+        width: 27%;;
+    }
+}
+
+@media (max-width:770px) {
+
+    .input-contact, .button-contact {
+        width: 65%;
+        margin-left: 2rem !important;
+    }
+    label{
+        margin-left:3rem ;
+    }
+    .image-contact{
+        width: 20rem;
+        margin-left: 2rem;
+    }
+    .hp-contact{
+        margin-left: 2rem;
+    }
+}

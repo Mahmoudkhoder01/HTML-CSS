@@ -1,0 +1,80 @@
+.pricing {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.p-pricing {
+    margin: auto;
+    width: 20rem;
+}
+
+.paper-components {
+    height: 20rem;
+    width: 20rem;
+    margin-top: 2rem;
+    border-radius: 15px !important;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    text-align: start;
+}
+
+.grid-container {
+    justify-content: center;
+}
+
+.dol-pricing {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nb-pricing {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.p-cards {
+    padding-left: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+.button-cards {
+    border-radius: 11px !important;
+    color: black !important;
+    padding: 10px 30px !important;
+    border: 1px solid black !important;
+}
+
+.b-c-md {
+    color: white !important;
+    border: none !important;
+}
+
+.b-c-end {
+    margin-left: 8rem !important;
+    background-color: #1565c0 !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 30px !important;
+}
+
+@media (min-width:1072px) {
+    .paper-display{
+        width: 24rem;
+        height: 25rem;
+        z-index: 1;
+        position: absolute;
+        left: 30rem;
+        padding-top: 2.7rem;
+    }
+    .paper-z{
+        z-index: 0;
+        position: relative;
+        margin: 5rem 11rem;
+    }
+    .b-c-md{
+        margin-left: 1rem !important;
+        margin-top: 1.5rem !important;
+    }
+}
+

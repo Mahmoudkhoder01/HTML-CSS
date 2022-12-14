@@ -1,0 +1,33 @@
+.features{
+    margin-top: 2rem
+}
+.grid-features {
+    margin-top: 3rem;
+   
+}
+#checkboxs {
+    border-radius: 50% !important;
+    font-size: large;
+}
+
+.h2-features{
+    padding-left: 4rem;
+}
+hr{
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+
+@media (min-width:1072px) {
+    .end-hr{
+        width: 57%;
+    }
+    .features {
+        margin-left: 12rem;
+    }
+    hr{
+        width: auto;
+    }
+}

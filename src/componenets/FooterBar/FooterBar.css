@@ -1,0 +1,47 @@
+.hr-footer {
+    width: 80%;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+#resp-footer-nav{
+    margin-left: 10rem;
+}
+
+.footer-image {
+    width: 80px;
+    height: 60px;
+}
+@media (max-width:600px) {
+    .hr-footer {
+        margin-left: 2rem !important;
+        width: 90% !important;
+    }
+
+    #resp-footer-nav {
+        margin-left: 2rem !important;
+    }
+
+    .footer-nav {
+        width: 21% !important;
+    }
+}
+
+@media (min-width:600px) and (max-width:1050px) {
+    #resp-footer-nav {
+        margin-left: 5rem !important;
+    }
+
+    .hr-footer {
+        margin-left: 5rem;
+    }
+}
+
+@media (min-width:300px) and (max-width:540px) {
+    #resp-footer-nav {
+        margin-left: 2rem !important;
+    }
+
+    .hr-footer {
+        margin-left: 2rem !important;
+    }
+}
